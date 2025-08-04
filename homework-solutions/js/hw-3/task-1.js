@@ -76,7 +76,6 @@ console.log (item_3 * item_4)
 
 //15-16
 const item_5 = item_3;
-//console.log(item_5)
 
 //17-20
 const item_6 = 15;
