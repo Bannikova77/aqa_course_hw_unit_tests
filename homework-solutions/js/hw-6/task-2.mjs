@@ -32,7 +32,7 @@ for (const pizza of myPizzas) {
 }
 
 if (resultUnique.length === 0) {
-  resultNull = "null";
+  resultNull = null;
   resultUnique = [];
 }
 
