@@ -9,7 +9,7 @@
 
 function countOccurrences(arr) {
   return arr.reduce((acc, num) => {
-    acc[num] = (acc[num] || 0) + 1; // если ключа нет → 0, иначе увеличиваем
+    acc[num] = (acc[num] || 0) + 1; 
     return acc;
   }, {});
 }

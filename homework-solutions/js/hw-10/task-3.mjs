@@ -20,7 +20,7 @@ function getRandomArbitrary(min, max) {
 }
 
 function uniqueRandomGenerator(n) {
-  let numbers = Array.from({ length: n }, (_, i) => i + 1); // массив [1..n]
+  let numbers = Array.from({ length: n }, (_, i) => i + 1); 
 
   return function () {
     if (numbers.length === 0) {
